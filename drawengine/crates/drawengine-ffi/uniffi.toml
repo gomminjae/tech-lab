@@ -1,0 +1,5 @@
+[bindings.kotlin]
+package_name = "com.drawengine.ffi"
+
+[bindings.swift]
+module_name = "DrawEngineFFI"
