@@ -1,0 +1,7 @@
+ERC20/
+.claude/
+.DS_Store
+**/target/
+drawengine/ios/DrawExample/DrawEngineFFI.xcframework/
+xcuserdata/
+*.xcuserstate

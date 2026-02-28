@@ -1,0 +1,16 @@
+[package]
+name = "drawengine-ffi"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib", "lib"]
+
+[dependencies]
+drawengine-core = { path = "../drawengine-core" }
+uniffi = { workspace = true }
+uuid = { workspace = true }
+thiserror = "1"
+
+[build-dependencies]
+uniffi = { workspace = true, features = ["build"] }
